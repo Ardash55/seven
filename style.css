@@ -1,10 +1,43 @@
-.nameOfStore{
+.nameOfStore {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 60px;
 }
 
-.oneFromProduct{
+.oneFromProduct {
     display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.productImage {
+    width: 100px;
+    margin-left: 30px;
+}
+
+.productName{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.totalProductPriceDiv{
+    display: flex;
+    position: absolute;
+    right: 20px;
+}
+
+.productPriceDiv{
+    margin-right: 10px;
+}
+
+.productPrice{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.productTypePrice{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
